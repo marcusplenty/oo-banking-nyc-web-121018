@@ -5,7 +5,12 @@ class BankAccount
     @name = name
     @balance = 25
     @status = "open"
-  end 
+  end
   
-  def 
+  
+  def deposit(amount) 
+    @balance += amount
+  end
+  
+  def display_balance()
 end
