@@ -3,4 +3,5 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @status = "pending"
+  end 
 end
