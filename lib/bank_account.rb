@@ -12,5 +12,7 @@ class BankAccount
     @balance += amount
   end
   
-  def display_balance()
+  def display_balance
+    puts "Your balance is #{avi.balance}."
+  end 
 end
